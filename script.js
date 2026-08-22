@@ -33,7 +33,7 @@
                 fullNameError.textContent = '';
             }
 
-
+ 
             const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/; 
             if (emailInput.value.trim() === '') {
                 emailError.textContent = 'Email Address is required.';
