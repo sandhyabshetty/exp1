@@ -1,15 +1,15 @@
-   const admissionForm = document.getElementById('admissionForm');
+     const admissionForm = document.getElementById('admissionForm');
         const successMessage = document.getElementById('success-message');
 
 
         admissionForm.addEventListener('submit', function(event) {
-            event.preventDefault();
+            event.preventDefault(); 
             if (validateForm()) {
                 successMessage.classList.remove('hidden');
                } else {
                 successMessage.classList.add('hidden');
             }
-        });
+        } );
         function validateForm() {
             let isValid = true; 
 

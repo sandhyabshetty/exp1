@@ -5,11 +5,12 @@ body{
     justify-content:center;
     align-items:center;
     min-height:100vh;
+    background-color: yellowgreen;
 }
 
 
 .form-container{
-    background:#fff;
+    background: white;
     padding:20px;
     width:350px;
     border-radius:5px;
